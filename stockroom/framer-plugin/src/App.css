@@ -1,0 +1,20 @@
+main { display: flex; flex-direction: column; gap: 12px; padding: 14px 15px 20px; user-select: none; }
+main.center { align-items: center; justify-content: center; height: 100%; }
+h2 { font-size: 14px; margin: 0; }
+h3 { font-size: 12px; margin: 0 0 4px; }
+section { display: flex; flex-direction: column; gap: 8px; padding-top: 12px; border-top: 1px solid var(--framer-color-divider); }
+p { margin: 0; line-height: 1.45; }
+.muted { color: var(--framer-color-text-tertiary); }
+.small { font-size: 11px; }
+.error { color: var(--framer-color-tint); font-size: 12px; }
+.status { background: var(--framer-color-bg-tertiary); padding: 8px 10px; border-radius: 8px; }
+label { display: flex; flex-direction: column; gap: 4px; font-size: 11px; color: var(--framer-color-text-secondary); }
+input { width: 100%; }
+button { width: 100%; }
+button.link { background: none; color: var(--framer-color-tint); width: auto; padding: 0; height: auto; font-size: 11px; }
+.row { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.overrides { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; font-size: 11px; }
+.overrides li { display: grid; gap: 2px; }
+.overrides code { font-size: 11px; color: var(--framer-color-text); }
+.overrides span { color: var(--framer-color-text-tertiary); }
