@@ -1,0 +1,6 @@
+{
+  "id": "st0ckr",
+  "name": "Stockroom",
+  "modes": ["canvas", "configureManagedCollection", "syncManagedCollection"],
+  "icon": "/icon.svg"
+}
